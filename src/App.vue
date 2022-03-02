@@ -4,10 +4,7 @@
   </metainfo>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <br />
-  <router-link :to="'page1'">page1</router-link>
-  <router-link :to="'page2'">page2</router-link>
-  {{ state.count }}
-  <button @click="increment()">add</button>
+  <router-link :to="'page1'">map</router-link>
   <router-view></router-view>
 </template>
 
